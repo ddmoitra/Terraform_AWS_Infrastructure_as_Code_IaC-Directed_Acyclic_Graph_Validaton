@@ -12,7 +12,7 @@
 
 ![image](https://user-images.githubusercontent.com/46364751/180022179-80f97cf5-9b9a-4c6b-b280-a2e2a5b816f7.png)
 
-![image](https://user-images.githubusercontent.com/46364751/180022202-ebf8c92b-57bd-46f3-9998-6077033e0c79.png)
+![image](https://user-images.githubusercontent.com/46364751/180026668-ab1f0800-99fd-4824-92c0-960a3e53bbfa.png)
 
 
 * Initially, to test connection to AWS, a "connect_test.tf" file is created and AWS account access keys along with a sample S3 bucket are created
