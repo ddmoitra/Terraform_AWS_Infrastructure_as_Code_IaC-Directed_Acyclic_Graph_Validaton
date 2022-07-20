@@ -1,0 +1,12 @@
+provider "aws" {
+  access_key = ""
+  secret_key = ""
+  region  = "us-east-1"
+}
+
+resource "aws_s3_bucket" "terra-deeptom-exps3" {
+  bucket            = "terra-deeptom-expbuckets3"
+  acl               = "private"
+  
+}
+

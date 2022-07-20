@@ -1,0 +1,23 @@
+#Pre-initiation commands
+#vim connect_test.tf
+
+terraform init
+terraform apply
+terraform plan --help
+terraform plan
+vi terraform.tfstate
+terraform state
+terraform state list
+terraform state show aws_s3_bucket.terra-deeptom-exps3
+terraform show
+terraform show -json
+terrform apply -auto-approve #Just to quickly approve setup
+terraform plan -destory -out=destroy_deeptom_plan.plan
+terraform show destroy_deeptom_plan.plan
+terraform apply destroy_deeptom_plan.plan
+
+#vi deepto-terra-dev.tf
+terraform plan
+terraform apply
+terraform state list
+terraform graph
